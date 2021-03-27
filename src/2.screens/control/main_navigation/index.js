@@ -7,12 +7,12 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
-import Traklist from '../Traklist';
-import Zone from '../Zone';
-import Discover from '../Discover';
-import Fans from '../Fans';
-import Start from '../Start';
-import Profile from '../Profile';
+import Traklist from '../../Traklist';
+import Zone from '../../Zone';
+import Discover from '../../Discover';
+import Fans from '../../Fans';
+import Start from '../../Start';
+import Profile from '../../Profile';
 
 const Tab = createMaterialBottomTabNavigator();
 
