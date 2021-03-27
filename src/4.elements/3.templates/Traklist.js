@@ -6,9 +6,6 @@ import Menu from '../2.organisms/menu';
 export default function Traklist() {
   return (
     <View style={{backgroundColor: '#292929'}}>
-      <SafeAreaView style={{backgroundColor: '#fff'}}>
-        <Menu />
-      </SafeAreaView>
       <Landing />
     </View>
   );

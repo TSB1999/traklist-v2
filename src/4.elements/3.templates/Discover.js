@@ -4,9 +4,6 @@ import Menu from '../2.organisms/menu';
 export default function Discover() {
   return (
     <View>
-      <SafeAreaView style={{backgroundColor: '#fff'}}>
-        <Menu />
-      </SafeAreaView>
       <Text>Discover</Text>
     </View>
   );

@@ -5,12 +5,18 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
-import Traklist from '../../1.Traklist';
-import Zone from '../../2.Zone';
-import Discover from '../../3.Discover';
-import Fans from '../../4.Fans';
+// import Traklist from '../../1.Traklist';
+// import Zone from '../../2.Zone';
+// import Discover from '../../3.Discover';
+// import Fans from '../../4.Fans';
 import Start from '../../5a.Start';
-import Profile from '../../5b.Profile';
+// import Profile from '../../5b.Profile';
+
+import TraklistStack from './TraklistStack';
+import ZoneStack from './ZoneStack';
+import DiscoverStack from './DiscoverStack';
+import FansStack from './FansStack';
+import ProfileStack from './ProfileStack';
 
 const Tab = createMaterialBottomTabNavigator();
 
@@ -24,7 +30,7 @@ export default function MainTab() {
       style={{backgroundColor: 'tomato'}}>
       <Tab.Screen
         name="TRAKLIST"
-        component={Traklist}
+        component={TraklistStack}
         options={{
           tabBarLabel: 'TRAKLIST',
           tabBarColor: '#292929',
@@ -35,7 +41,7 @@ export default function MainTab() {
       />
       <Tab.Screen
         name="ZONE"
-        component={Zone}
+        component={ZoneStack}
         options={{
           tabBarLabel: 'ZONE',
           tabBarColor: '#292929',
@@ -50,7 +56,7 @@ export default function MainTab() {
       />
       <Tab.Screen
         name="DISCOVER"
-        component={Discover}
+        component={DiscoverStack}
         options={{
           tabBarLabel: 'DISCOVER',
           tabBarColor: '#292929',
@@ -61,7 +67,7 @@ export default function MainTab() {
       />
       <Tab.Screen
         name="FANS"
-        component={Fans}
+        component={FansStack}
         options={{
           tabBarLabel: 'FANS',
           tabBarColor: '#292929',
