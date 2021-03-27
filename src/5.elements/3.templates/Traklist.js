@@ -1,7 +1,7 @@
 import React from 'react';
 import {SafeAreaView, View, Text} from 'react-native';
 
-export default function Home() {
+export default function Traklist() {
   return (
     <SafeAreaView>
       <Text>Traklist</Text>
