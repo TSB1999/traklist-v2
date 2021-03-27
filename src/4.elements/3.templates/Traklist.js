@@ -1,12 +1,12 @@
 import React from 'react';
-import {SafeAreaView, View, Text} from 'react-native';
+import {SafeAreaView, View, Text, StatusBar} from 'react-native';
 import Landing from '../2.organisms/home__landing';
 import Menu from '../2.organisms/menu';
-// import styles from './'
+
 export default function Traklist() {
   return (
-    <View>
-      <SafeAreaView>
+    <View style={{backgroundColor: '#292929'}}>
+      <SafeAreaView style={{backgroundColor: '#fff'}}>
         <Menu />
       </SafeAreaView>
       <Landing />
