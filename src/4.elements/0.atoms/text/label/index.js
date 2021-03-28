@@ -15,7 +15,7 @@ export default function TRAKLIST_TEXT({...props}) {
 const styles = StyleSheet.create({
   text: {
     fontFamily: 'Verdana',
-    fontSize: 28,
-    fontWeight: '400',
+    // fontSize: 28,
+    // fontWeight: '400',
   },
 });
