@@ -18,7 +18,9 @@ export default function AltLogin() {
           <TRAKLIST_BUTTON text="SIGN IN WITH" color="#1DB954" />
         </View>
         <View style={{flex: 2, alignItems: 'center'}}>
-          <FontAwesome name="spotify" size={25} color="#fff" />
+          <TouchableWithoutFeedback onPress={() => alert('hi')}>
+            <FontAwesome name="spotify" size={25} color="#fff" />
+          </TouchableWithoutFeedback>
         </View>
       </View>
 
@@ -33,7 +35,9 @@ export default function AltLogin() {
           <TRAKLIST_BUTTON text="SIGN IN WITH" color="#FC3C44" />
         </View>
         <View style={styles.button_icon}>
-          <FontAwesome name="apple" size={25} color="#fff" />
+          <TouchableWithoutFeedback onPress={() => alert('hi')}>
+            <FontAwesome name="apple" size={25} color="#fff" />
+          </TouchableWithoutFeedback>
         </View>
       </View>
 
