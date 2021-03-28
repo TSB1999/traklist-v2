@@ -9,8 +9,16 @@ export default function Landing() {
     <View style={styles.container}>
       <SafeAreaView style={styles.safe_container}>
         <View style={{paddingRight: 30}}>
-          <TRAKLIST_TEXT text="don't miss out.." textAlign="right" />
-          <TRAKLIST_TEXT text="...join in the fun!" textAlign="right" />
+          <TRAKLIST_TEXT
+            text="don't miss out.."
+            textAlign="right"
+            color="#fff"
+          />
+          <TRAKLIST_TEXT
+            text="...join in the fun!"
+            textAlign="right"
+            color="#fff"
+          />
         </View>
       </SafeAreaView>
     </View>
