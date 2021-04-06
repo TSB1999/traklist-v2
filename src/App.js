@@ -7,7 +7,7 @@ import DrawerContent from './2.screens/control/drawer';
 import store from './0.redux/store';
 
 store.subscribe(() => {
-  alert('Store changed!', store.getState());
+  alert(JSON.stringify(store.getState()));
 });
 
 export default function App() {
